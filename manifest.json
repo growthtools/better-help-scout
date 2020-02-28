@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "better-help-scout",
+  "description": "Some UI tweaks to HelpScout",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://secure.helpscout.net/conversation/*"
+      ],
+      "js": [
+        "jquery-3.4.1.min.js",
+        "content_script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
