@@ -4,9 +4,9 @@
   "description": "Some UI tweaks to HelpScout",
   "version": "0.0.5",
   "icons": {
-    "48": "icons/icon.svg",
-    "64": "icons/icon.svg",
-    "96": "icons/icon.svg"
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "96": "icons/icon96.png"
   },
   "content_scripts": [
     {
