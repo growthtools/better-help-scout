@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "better-help-scout",
   "description": "Some UI tweaks to HelpScout",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icons": {
     "48": "icons/icon48.png",
     "64": "icons/icon64.png",
